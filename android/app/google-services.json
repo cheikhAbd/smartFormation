@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "613549416080",
+    "project_id": "smart-formation-3acb1",
+    "storage_bucket": "smart-formation-3acb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613549416080:android:43a1a432e0a4f2fafd8215",
+        "android_client_info": {
+          "package_name": "com.example.first_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfAhhDbaaKKKowF_xc3ZwGLfhOq7800II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613549416080:android:2f9dee6a9d7200c3fd8215",
+        "android_client_info": {
+          "package_name": "com.example.smart_formation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfAhhDbaaKKKowF_xc3ZwGLfhOq7800II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613549416080:android:347948d0d45f395cfd8215",
+        "android_client_info": {
+          "package_name": "com.example.smart_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfAhhDbaaKKKowF_xc3ZwGLfhOq7800II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
