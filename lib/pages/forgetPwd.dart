@@ -49,6 +49,7 @@ class _ForgetPwdState extends State<ForgetPwd> {
         title: Text(
           "Forget password",
           textAlign: TextAlign.center,
+          style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Color(0xFF6C63FF),
       ),
@@ -56,16 +57,28 @@ class _ForgetPwdState extends State<ForgetPwd> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text("Entrez votre email :"),
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 20),
+              child: Text(
+                "Entrez votre email :",
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              ),
+            ),
             MyTextField(
                 controler: _email,
                 hintText: "Email",
                 obs: false,
                 label: "email"),
+            SizedBox(
+              height: 20,
+            ),
             MaterialButton(
               onPressed: () => forgetPwd(context),
               color: Color(0xFF6C63FF),
-              child: const Text("Rest Password"),
+              child: const Text(
+                "Rest Password",
+                style: TextStyle(color: Colors.white),
+              ),
             )
           ],
         ),
